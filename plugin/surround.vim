@@ -597,14 +597,14 @@ inoremap <silent> <Plug>Isurround  <C-R>=<SID>insert()<CR>
 inoremap <silent> <Plug>ISurround  <C-R>=<SID>insert(1)<CR>
 
 if !exists("g:surround_no_mappings") || ! g:surround_no_mappings
-  nmap ds  <Plug>Dsurround
+  nmap es  <Plug>Dsurround
   nmap cs  <Plug>Csurround
   nmap cS  <Plug>CSurround
-  nmap ys  <Plug>Ysurround
-  nmap yS  <Plug>YSurround
-  nmap yss <Plug>Yssurround
-  nmap ySs <Plug>YSsurround
-  nmap ySS <Plug>YSsurround
+  nmap js  <Plug>Ysurround
+  nmap jS  <Plug>YSurround
+  nmap jss <Plug>Yssurround
+  nmap jSs <Plug>YSsurround
+  nmap jSS <Plug>YSsurround
   xmap S   <Plug>VSurround
   xmap gS  <Plug>VgSurround
   if !exists("g:surround_no_insert_mappings") || ! g:surround_no_insert_mappings
